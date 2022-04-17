@@ -6,3 +6,14 @@
 .matrix-container {
     padding-top: 50px;
 }
+
+/* matrix 요소 최상단 정렬 */
+table td, table td * {
+    vertical-align: top;
+}
+
+/* matrix 요소 간 간격 */
+table {
+    border-spacing: 30px;
+}
+
