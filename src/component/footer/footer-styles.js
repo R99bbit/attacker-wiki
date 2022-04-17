@@ -1,13 +1,12 @@
 import styled from 'styled-components';
-   
+
+// 91.8
 export const Box = styled.div`
   padding: 80px 60px;
   background: #131313;
   position: flex;
   bottom: 0;
-  width: 91.8%;
   margin-top: 100px;
-   
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
