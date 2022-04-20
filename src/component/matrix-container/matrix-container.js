@@ -7,22 +7,24 @@ function MatrixContainer() {
     var tactic = Matrix['tactic'];
     var tactics = Object.keys(tactic);
     return(
-        <table>
-           <tr>
-            {
-                tactics.map(tactic_iter => {
-                    return (
-                        <td>
-                            <TacticItem
-                                tacticItems={tactic[tactic_iter]}
-                                tacticName={tactic_iter}
-                            ></TacticItem>
-                        </td>
-                    )
-                })
-            }
-           </tr>
-        </table>
+        <div className='matrix-scroll'>
+            <table>
+            <tr>
+                {
+                    tactics.map(tactic_iter => {
+                        return (
+                            <td>
+                                <TacticItem
+                                    tacticItems={tactic[tactic_iter]}
+                                    tacticName={tactic_iter}
+                                    ></TacticItem>
+                            </td>
+                        )
+                    })
+                }
+            </tr>
+            </table>
+        </div>
     )
 }
 

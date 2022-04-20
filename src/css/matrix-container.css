@@ -7,6 +7,13 @@
     padding-top: 50px;
 }
 
+/* matrix 요소 scorll box */
+.matrix-scroll {
+    width: 100%;
+    overflow-x: scroll;
+    background-color: rgb(32, 32, 32);
+}
+
 /* matrix 요소 최상단 정렬 */
 table td, table td * {
     vertical-align: top;

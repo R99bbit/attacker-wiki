@@ -13,9 +13,7 @@ function App() {
     //
     <div className="App">
       <Header></Header>
-      <div className='matrix-scroll'>
-        <MatrixContainer></MatrixContainer>
-      </div>
+      <MatrixContainer></MatrixContainer>
       <Footer/>
 
     </div>
